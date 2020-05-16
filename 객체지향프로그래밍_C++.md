@@ -225,7 +225,7 @@ Instances of classes are like variables of a type int or float.
 
 When a circle is created what should the circle look like? If we have a class Circle I can create this circle.
 
-![KakaoTalk_20190919_201954453](C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\KakaoTalk_20190919_201954453.jpg)
+![KakaoTalk_20190919_201954453](https://user-images.githubusercontent.com/59441164/82115710-811d5980-979f-11ea-8d4e-55e915f0715a.jpg)
 
 ```c++
 int main(){
