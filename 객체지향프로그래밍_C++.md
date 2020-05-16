@@ -252,7 +252,7 @@ When a instance of a Circle is created, memory is allocated for the data inside 
 
 Memory allocation for a circle.
 
-![KakaoTalk_20190919_202114563](C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\KakaoTalk_20190919_202114563.jpg)
+![KakaoTalk_20190919_202114563](https://user-images.githubusercontent.com/59441164/82115711-82e71d00-979f-11ea-906d-f9dc4918e1bd.jpg)
 
 What does this memory contain?
 
@@ -498,7 +498,7 @@ class Circle{
   }
   ```
 
-![1568895208025](C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1568895208025.png)
+![1568895208025](https://user-images.githubusercontent.com/59441164/82115715-8a0e2b00-979f-11ea-9020-f1d102282285.png)
 
 * Both constructors can accept one parameter so there is an error.
 * Constructors are part of Validation.
@@ -523,7 +523,7 @@ int main(){
 
 After Ending of the function, `MultiplyByTwo` the `int n` destroyed.
 
-![1569507824239](C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1569507824239.png)
+![1569507824239](https://user-images.githubusercontent.com/59441164/82115718-8aa6c180-979f-11ea-9ca2-6bb2f05d7dae.png)
 
 ```cpp
 void DoubleSize(Circle circ){
@@ -537,7 +537,7 @@ int main(){
 
 After Ending of the function, `DoubleSize` the `Circle circ` destroyed.
 
-![1569507896450](C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1569507896450.png)
+![1569507896450](https://user-images.githubusercontent.com/59441164/82115720-8b3f5800-979f-11ea-8e21-69144f120e29.png)
 
 ```cpp
 class Student{
@@ -559,7 +559,7 @@ int main(){
 }
 ```
 
-![1569507955411](C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1569507955411.png)
+![1569507955411](https://user-images.githubusercontent.com/59441164/82115722-8bd7ee80-979f-11ea-8161-18cf543d2154.png)
 
 This is why we need copy constructor.
 
@@ -592,7 +592,7 @@ int num;
 int * ptr;
 ```
 
-![1569507981708](C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1569507981708.png)
+![1569507981708](https://user-images.githubusercontent.com/59441164/82115723-8c708500-979f-11ea-8ddf-9a2593830ee1.png)
 
 `num` is an integer, `ptr` is a pointer to an integer.
 
@@ -882,7 +882,7 @@ Date d1;
 d1.setYear(4).setMonth(7).setDay(12)
 ```
 
-![1570706110391](C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1570706110391.png)
+![1570706110391](https://user-images.githubusercontent.com/59441164/82115724-8c708500-979f-11ea-90a6-e4a99082cecd.png)
 
 How to write `setYear` `setMonth` `setDay` ?
 
@@ -921,13 +921,13 @@ Date Date::setDay(int newDay){
 
 This has a problem.
 
-![1570706142498](C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1570706142498.png)
+![1570706142498](https://user-images.githubusercontent.com/59441164/82115725-8d091b80-979f-11ea-80f7-8ae697e798d4.png)
 
 We can get four copies of `d1`. and above 3 `d1`s popped away, so only the `year` changed.
 
 To solve this problem, we can use pointer.
 
-![1570706157393](C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1570706157393.png)
+![1570706157393](https://user-images.githubusercontent.com/59441164/82115726-8da1b200-979f-11ea-814c-116636ec8162.png)
 
 ```cpp
 Date d1;
@@ -977,7 +977,7 @@ Date& Date::setDay(int newDay){
 
 ### Inheritance (상속성)
 
-<img src="C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1571308828028.png" alt="1571308828028" style="zoom:25%;" />
+![1571308828028](https://user-images.githubusercontent.com/59441164/82115727-8da1b200-979f-11ea-973c-c9fd06de29f2.png)
 
 If `SubClass1` and `SubClass2` have the same variables & methods, We can move the shared variables and methods to a `SuperClass` 
 
@@ -989,13 +989,13 @@ In `C++` `SubClass` can have one more `SuperClass` but not `java`
 
 `SubClass` can be other `SubClass` 's `SuperClass`
 
-<img src="C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1571308855832.png" alt="1571308855832" style="zoom: 25%;" />
+![1571308855832](https://user-images.githubusercontent.com/59441164/82115728-8e3a4880-979f-11ea-9a52-ccf82b6f67cd.png)
 
 `Eagle` inherits from both `birds` and `animals`
 
 * For Example
 
-  <img src="C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1571308877278.png" alt="1571308877278" style="zoom: 25%;" />
+![1571308877278](https://user-images.githubusercontent.com/59441164/82115729-8e3a4880-979f-11ea-9dc1-639fa03ca536.png)
 
   ```cpp
   class Shape{
@@ -1083,7 +1083,7 @@ In `C++` `SubClass` can have one more `SuperClass` but not `java`
 
   But `Breaking` is already DRY code.
 
-  ![1571308893605](C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1571308893605.png)
+  ![1571308893605](https://user-images.githubusercontent.com/59441164/82115730-8ed2df00-979f-11ea-9bf3-a4ef435ed6ae.png)
 
   Then We do not need to make boiling method twice.
 
@@ -1203,7 +1203,7 @@ In other words, any subclass of shape must include the body of `getArea()`, or t
 
 An abstract class basically lists the required methods for its subclasses as pure virtual methods.
 
-<img src="C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1572773179209.png" alt="1572773179209" style="zoom: 33%;" />
+![1572773179209](https://user-images.githubusercontent.com/59441164/82115731-8ed2df00-979f-11ea-9e40-42addb5811d6.png)
 
 If an instance of the Superclass is created, there is only enough space allocated in memory for the superclass variables. And we can only use the superclass methods.
 
@@ -1384,7 +1384,7 @@ Circle c4;
 file2.read(reinterpret_cast<const char*>(& c4), sizeof(Circle)); //sizeof(c4) 가능
 ```
 
-<img src="C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1572773210459.png" alt="1572773210459" style="zoom: 25%;" />
+![1572773210459](https://user-images.githubusercontent.com/59441164/82115732-8f6b7580-979f-11ea-9533-fc0af6a26262.png)
 
 ### Casting
 
@@ -1447,8 +1447,7 @@ p = const_cast<int *> &y;
 *p = 3;		//ok
 ```
 
-![1572773234766](C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1572773234766.png)
-
+![1572773234766](https://user-images.githubusercontent.com/59441164/82115733-90040c00-979f-11ea-966a-e5d2087f95b3.png)
 ```cpp
 int * x; 								//4 bytes
 char array[4] = {'x', 'y', 'z', 'a'};	//1 bytes * 4
@@ -1578,13 +1577,10 @@ int main(){
 }
 ```
 
-![1572856281118](C:\Users\seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1572856281118.png)
+![1572856281118](https://user-images.githubusercontent.com/59441164/82115735-909ca280-979f-11ea-8691-38885c1569d5.png)
 
 
-
-![1572773253112](C:\Users\Seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1572773253112.png)
-
-
+![1572773253112](https://user-images.githubusercontent.com/59441164/82115734-90040c00-979f-11ea-887c-1c3a2832d45a.png)
 
 
 
