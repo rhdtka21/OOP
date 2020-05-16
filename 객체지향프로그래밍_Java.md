@@ -8,7 +8,7 @@
 | C++ (Combine OOP and non-OOP : Mixed Style, Hard to understand) | 1980     |
 | Java (Only OOP : Everything in a Class, Consistent Style, Easy to understand) | 1995     |
 
-![1575531627002](C:\Users\seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1575531627002.png)
+![1575531627002](https://user-images.githubusercontent.com/59441164/82115740-92666600-979f-11ea-8b95-72ebb188ede7.png)
 
 C/C++ Programs are compiled to Machine Instructions which only work on one Microprocessor.
 
@@ -379,7 +379,7 @@ If an instance of the `StringBuilder` class is created, then memory will be allo
 StringBuilder sb1 = new StringBuilder("abc");
 ```
 
-![1575531606049](C:\Users\seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1575531606049.png)
+![1575531606049](https://user-images.githubusercontent.com/59441164/82115739-91cdcf80-979f-11ea-9d37-615f95dbffd8.png)
 
 `sb1.length()` is the number of characters in the string
 
@@ -416,7 +416,7 @@ Circle c1, c2;
 c2 = c1;
 ```
 
-![1575531547186](C:\Users\seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1575531547186.png)
+![1575531547186](https://user-images.githubusercontent.com/59441164/82115736-909ca280-979f-11ea-84db-c1ff79e5e647.png)
 
 In `Java`
 
@@ -424,7 +424,7 @@ In `Java`
 Circle c1, c2;
 ```
 
-![1575531559658](C:\Users\seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1575531559658.png)
+![1575531559658](https://user-images.githubusercontent.com/59441164/82115737-91353900-979f-11ea-9fc1-98c737cba674.png)
 
 ```java
 Circle c1, c2;
@@ -432,7 +432,7 @@ c1 = new Circle();
 c2 = c1;
 ```
 
-![1575531576336](C:\Users\seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1575531576336.png)
+![1575531576336](https://user-images.githubusercontent.com/59441164/82115738-91cdcf80-979f-11ea-81bb-676e2fa206f5.png)
 
 
 
@@ -569,7 +569,6 @@ If a `JFrame` contains more than one component, a Layout should be used to manag
 
 ### Flow Layout
 
-`그림`
 
 A `Flow Layout` adds component from left to right at the top of the `JFrame` It starts a second row after the edge of the `JFrame` is reached.
 
@@ -579,7 +578,6 @@ If the Frame is resized then the components can changed their Locations.
 
 ### Grid Layout
 
-`그림`
 
 A `Grid Layout` arranges the components in a regular grid.
 
@@ -589,7 +587,6 @@ If the Frame is resized, then the components will also be resized, but their loc
 
 ### Border Layout
 
-`그림`
 
 A `Border Layout` divides the Frame into Regions : North, South, East, West and Center.
 
@@ -644,8 +641,7 @@ If a class implements `ItemListener`, then the class must include the `itemState
 
 ### How to convert between Classes and Native types
 
-![1576132073873](C:\Users\seok\OneDrive - implement mission-critical ROI\자료3-2\객체지향 프로그래밍\1576132073873.png)
-
+![1576132073873](https://user-images.githubusercontent.com/59441164/82115743-92fefc80-979f-11ea-8eb8-9123c9b69504.png)
 
 
 ### Generic class
